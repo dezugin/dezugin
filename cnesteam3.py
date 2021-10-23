@@ -29,12 +29,12 @@ while count<len(keys):
 
     #values of consecutive CNES number to begin from, month and year
     continueCount = count
-    continueMonth = 0
-    continueYear = 2006
+    continueMonth = 13
+    continueYear = 2022
 
     #main loop, iterate through keys
     for key in keys:
-      if count<continueCount:
+      if count<=continueCount:
         count = count +1
         continue
       cnes = f'{key:07d}'
