@@ -33,22 +33,21 @@ df = None
 residencia = pd.read_csv('/home/dez/selenium/Base - MFC com Residência - Brasil - Sheet1.csv')
 driver.get("https://portal.cfm.org.br/busca-medicos/")
 driver.set_window_size(1000, 916)
-element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[4]/div[2]/button")))
+#driver.set_page_load_timeout(5)
+driver.implicitly_wait(5)
+element = WebDriverWait(driver, 4).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[4]/div[2]/button")))
 driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div[2]/button").click()
 tamanho = len(residencia.index)
-#print(tamanho)
 #count = 0
 with open('restartcrm.txt','r') as c:
   count = int(c.read())+1
 print(count)
 def downloadCrmInfoFromWebsite(index, row,driver):
   driver.refresh()
-  element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[1]/section[2]/div/div/div/article/div[2]/div/div/form/div/div[1]/div[1]/div/label")))
-  #driver.find_element(By.XPATH, "/html/body/div[1]/div[4]/div[2]/button").click()
+  element = WebDriverWait(driver, 4).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[1]/section[2]/div/div/div/article/div[2]/div/div/form/div/div[1]/div[1]/div/label")))
   estado = row['UF']
   crm = int(row['CRM'])
   print(f"Processando médico nr {index}, {index/tamanho}%, nome: {row['Médico']}, {crm}-{estado}")
-  
   driver.find_element(By.NAME, "crm").clear()
   dropdown = driver.find_element(By.ID, "uf")
   Select(dropdown).select_by_value(estado)
@@ -57,11 +56,14 @@ def downloadCrmInfoFromWebsite(index, row,driver):
   driver.find_element(By.NAME, "crm").send_keys(crm)
   driver.find_element(By.NAME, "crm").send_keys(Keys.ENTER)
 
-  element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[1]/section[2]/div/div/div/div[1]/div/div/div/div[2]/div/div[1]/div[1]")))
+  element = WebDriverWait(driver, 4).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[1]/section[2]/div/div/div/div[1]/div/div/div/div[2]/div/div[1]/div[1]")))
   str = driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/section[2]/div/div/div/div[1]/div/div/div/div[2]/div/div[1]/div[2]').get_attribute("innerHTML")
   str = "".join(str.split())
   dataDeInscricao = cleanhtml(str)
-  dataDeInscricao = cleanhtmldate(dataDeInscricao)[0]
+  if len(dataDeInscricao)<17:
+    dataDeInscricao = ""
+  else:
+    dataDeInscricao = cleanhtmldate(dataDeInscricao)[0]
   str = driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/section[2]/div/div/div/div[1]/div/div/div/div[2]/div/div[1]/div[1]').get_attribute("innerHTML")
   str = "".join(str.split())
   crmMedico = cleanhtml(str)
@@ -81,19 +83,22 @@ def downloadCrmInfoFromWebsite(index, row,driver):
     print(f'{index} - {crm}', file=f)
   with open('restartcrm.txt', 'w') as f:
     print(index, file=f)
-while count<6256:
-  for index, row in residencia.iterrows():
-      if index<count:
-        continue
-      try: 
-        downloadCrmInfoFromWebsite(index, row,driver) 
-        count = count + 1
-      except Exception:
-        flag = False
-        while not flag:
-          try:
-            downloadCrmInfoFromWebsite(index, row,driver)
-            flag = True
-            count = count + 1
-          except Exception:
-            pass
+
+for index, row in residencia.iterrows():
+    if index<count:
+      continue
+    if int(row['CRM']) == 0:
+      print("CRM = 0")
+      continue
+    try: 
+      downloadCrmInfoFromWebsite(index, row,driver) 
+    except Exception as e:
+      flag = False
+      print(e)
+      while not flag:
+        try:
+          downloadCrmInfoFromWebsite(index, row,driver)
+          flag = True
+        except Exception as e:
+          print(e)
+          pass
