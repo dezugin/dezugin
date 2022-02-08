@@ -16,7 +16,11 @@ My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech p
 * Python For Everybody - UMichigan / Coursera - Specialization in which I took a few courses related to webscraping and databases
 * Cisco CCNA 1, Cyberops -  Cisco academy course teaching networking concepts and cybersecurity, including analyzing and creating reports on a server breach
 
+## Why dezugin
 
+My name is Hugo Souza, I used to roam the internets with the deSouza monicker, which got shortened to dez, and the ugin was added after I rekindled my interest in languages and started learning russian. dezugin = Hugo Souza. :)
+
+Chances are that if someone online is using that nick, its me. I'm on telegram and twitter with that handle, you can reach me if you please there or on my email, deSouza@protonmail.com
 
 ## Miscelaneous code on the dezugin repository
 
