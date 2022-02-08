@@ -1,9 +1,10 @@
 # Hi there
 
-My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech poised to change healthcare in brazil. I'm a student at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, and a reputable one in brazil. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things and am currently studying data engineering!
+My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech poised to change healthcare in brazil. I'm a student at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things and am currently studying data engineering!
 
 :student: Courses i've taken
 
+* Udacity data engineering nanodegree - About to finish its capstone project! Very thorough course approaching postgresql, apache cassandra, apache spark, apache airflow, amazon redshift, aws account management and more!
 * From data to insights with Google Specialization - Coursera/Google - Coursera Specialization designed to familiarize oneself with GCP tools related to bigquery, such as cloud data prep, bigquery itself, data studio, some bq ml operations, etc..
 * Statistics With Python Specialization - University of Michigan / Coursera - Coursera Specialization designed by U Michigan to familiarize oneself with statistical concepts and their python implementation 
 * Python For Everybody - UMichigan / Coursera - Specialization in which I took a few courses related to webscraping and databases
