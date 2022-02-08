@@ -4,7 +4,13 @@ My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech p
 
 :student: Courses i've taken
 
-* Udacity data engineering nanodegree - About to finish its capstone project! Very thorough course approaching postgresql, apache cassandra, apache spark, apache airflow, amazon redshift, aws account management and more!
+* Udacity data engineering nanodegree - About to finish its capstone project! Very thorough course approaching postgresql, apache cassandra, apache spark, apache airflow, amazon redshift, data lakes, data warehousing, aws account management and more! You can check my work in these repositories:
+    - [Postgres](https://github.com/dezugin/UdacityPostgresSparkify)
+    - [Cassandra](https://github.com/dezugin/UdacityCassandraSparkify)
+    - [Redshift](https://github.com/dezugin/UdacityAWSWarehouseSparkify)
+    - [Spark](https://github.com/dezugin/UdacityAWSDataLake)
+    - [Airflow](https://github.com/dezugin/UdacitySparkifyAirFlow)
+    - [Capstone](https://github.com/dezugin/comeToBraziw_udacityCapstoneProject) - Ongoing
 * From data to insights with Google Specialization - Coursera/Google - Coursera Specialization designed to familiarize oneself with GCP tools related to bigquery, such as cloud data prep, bigquery itself, data studio, some bq ml operations, etc..
 * Statistics With Python Specialization - University of Michigan / Coursera - Coursera Specialization designed by U Michigan to familiarize oneself with statistical concepts and their python implementation 
 * Python For Everybody - UMichigan / Coursera - Specialization in which I took a few courses related to webscraping and databases
