@@ -10,7 +10,7 @@ My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech p
     - [Redshift](https://github.com/dezugin/UdacityAWSWarehouseSparkify)
     - [Spark](https://github.com/dezugin/UdacityAWSDataLake)
     - [Airflow](https://github.com/dezugin/UdacitySparkifyAirFlow)
-    - [Capstone](https://github.com/dezugin/comeToBraziw_udacityCapstoneProject) - Ongoing
+    - [Capstone](https://github.com/dezugin/comeToBraziw_udacityCapstoneProject)
 * From data to insights with Google Specialization - Coursera/Google - Coursera Specialization designed to familiarize oneself with GCP tools related to bigquery, such as cloud data prep, bigquery itself, data studio, some bq ml operations, etc..
 * Statistics With Python Specialization - University of Michigan / Coursera - Coursera Specialization designed by U Michigan to familiarize oneself with statistical concepts and their python implementation 
 * Python For Everybody - UMichigan / Coursera - Specialization in which I took a few courses related to webscraping and databases
