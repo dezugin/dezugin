@@ -32,3 +32,5 @@ Chances are that if someone online is using that nick, its me. I'm on telegram a
 - preprocessamento.py: college activity on preprocessing datasets converted from a jupyter notebook to a python script
 - crossval.py: college activity on cross validation converted from a jupyter notebook to a python script
 - crawlcrm.py: web scraper downloading doctors information from the brazilian federal council of medicine based on their registry number
+- unimedjson.py: scraper throught unimed's api to download healthcare providers information
+- unimedjsonflattened.py: scraper throught unimed's api to download healthcare providers information already flattened
