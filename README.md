@@ -1,6 +1,6 @@
 # Hi there
 
-My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech poised to change healthcare in brazil. I'm a student at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things and am currently studying data engineering!
+My name is hugo, and i'm formerly a data analyst intern at 3778, a brazilian healthtech poised to change healthcare in brazil. I'm a student at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things and am currently pivoting to data engineering!
 
 :student: Courses i've taken
 
@@ -20,7 +20,7 @@ My name is hugo, and i'm a data analyst intern at 3778, a brazilian healthtech p
 
 My name is Hugo Souza, I used to roam the internets with the deSouza monicker, which got shortened to dez, and the ugin was added after I rekindled my interest in languages and started learning russian. dezugin = Hugo Souza. :)
 
-Chances are that if someone online is using that nick, its me. I'm on telegram and twitter with that handle, you can reach me if you please there or on my email, deSouza@protonmail.com
+You can reach me if you please there or on my email, deSouza@protonmail.com
 
 ## Miscelaneous code on the dezugin repository
 
