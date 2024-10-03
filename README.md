@@ -1,9 +1,20 @@
 # Hi there
 
-My name is hugo, and i'm formerly a data analyst intern at 3778, a brazilian healthtech poised to change healthcare in brazil. I'm a student at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things and am currently pivoting to data engineering!
+My name is hugo, and i'm a devops engineer at RHI Magnesita, formerly a data analyst intern at 3778, a brazilian healthtech startup, and formerly an information security intern at Symplicity, a job board company for educational institutions. I hold a bachelors in computer science at Pontificia Universidade Católica de Minas gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things!
 
 :student: Courses i've taken
 
+* Udacity Azure Devops Nanodegree - Very thorough course approaching azure devops, terraform, infrastructure as code, CI/CD, postman, unit testing through jmeter, selenium and others and more! You can check my work in these repositories:
+    - [Azure](https://github.com/dezugin/udacity_devops_azure)
+    - [Flask WebApp Azure Pipeline](https://github.com/dezugin/udacity_devops_pipeline)
+    - [Jmeter](https://github.com/apache/jmeter)
+    - [CI/CD](https://github.com/dezugin/udacity_azure_cicd)
+    - [Flask WebApp](https://github.com/dezugin/flascodehugo)
+    - [Ensuring Quality Releases](https://github.com/dezugin/cd1807-Project-Ensuring-Quality-Releases)
+    - [Ensuring Quality Releases](https://github.com/dezugin/cd1807-Ensuring-Quality-Releases-Exercises)
+    - [Pipeline](https://github.com/dezugin/udacity_devops_pipeline_ud)
+    - [House Price Prediction App Flask](https://github.com/dezugin/udacity_devops_pipeline)
+  
 * Udacity data engineering nanodegree - About to finish its capstone project! Very thorough course approaching postgresql, apache cassandra, apache spark, apache airflow, amazon redshift, data lakes, data warehousing, aws account management and more! You can check my work in these repositories:
     - [Postgres](https://github.com/dezugin/UdacityPostgresSparkify)
     - [Cassandra](https://github.com/dezugin/UdacityCassandraSparkify)
@@ -16,11 +27,6 @@ My name is hugo, and i'm formerly a data analyst intern at 3778, a brazilian hea
 * Python For Everybody - UMichigan / Coursera - Specialization in which I took a few courses related to webscraping and databases
 * Cisco CCNA 1, Cyberops -  Cisco academy course teaching networking concepts and cybersecurity, including analyzing and creating reports on a server breach
 
-## Why dezugin
-
-My name is Hugo Souza, I used to roam the internets with the deSouza monicker, which got shortened to dez, and the ugin was added after I rekindled my interest in languages and started learning russian. dezugin = Hugo Souza. :)
-
-You can reach me if you please there or on my email, deSouza@protonmail.com
 
 ## Miscelaneous code on the dezugin repository
 
