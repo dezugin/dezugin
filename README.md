@@ -5,7 +5,7 @@ My name is Hugo, and i'm a Full Stack Engineer at RHI Magnesita, formerly a devo
 ## Educational stuff
 
 * Articles
-- [Political Attitude Networks in Brazil using Resin - UTFPR/UNIGOU] (https://github.com/dezugin/Political_Attitude_Networks_Brazil_ResIN)
+- [Political Attitude Networks in Brazil using Resin - UTFPR/UNIGOU](https://github.com/dezugin/Political_Attitude_Networks_Brazil_ResIN)
 - [Network Effects of Firehosing - PUC/MG Bsc Thesis](https://github.com/dezugin/tcc)
 
 
