@@ -1,6 +1,6 @@
 # Hi there
 
-My name is Hugo, and i'm a Full Stack Engineer at RHI Magnesita, formerly a devops engineer at rhi magnesita, data analyst intern at 3778, a brazilian healthtech startup, and formerly an information security intern at Symplicity, a job board company for educational institutions. I hold a bachelors in computer science at Pontificia Universidade Católica de Minas Gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things!
+My name is Hugo, and i'm a Full Stack Engineer formerly at RHI Magnesita, formerly a devops engineer also at rhi magnesita, data analyst intern at 3778, a brazilian healthtech startup, and formerly an information security intern at Symplicity, a job board company for educational institutions. I hold a bachelors in computer science at Pontificia Universidade Católica de Minas Gerais, the largest university in latin america, with a good reputation in the local industry and an exceptional record in terms of attendance by people of various backgrounds. I have a background in law and international relations, as well as done some work in community outreach. I love learning new things!
 
 ## Educational stuff
 
